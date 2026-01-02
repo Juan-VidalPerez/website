@@ -1,4 +1,4 @@
-baseURL: "https://juanvidalperez.github.io" 
+baseURL: "https://juan-vidalperez.github.io/website/" 
 title: Juan Vidal-Perez
 theme: PaperMod
 
@@ -33,7 +33,7 @@ params:
     author: Juan Vidal-Perez
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: auto
+    defaultTheme: light
     hideFooter: false
     disableThemeToggle: false
     ShowShareButtons: false
