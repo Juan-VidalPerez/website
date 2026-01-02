@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://juanvidalperez.github.io" 
+title: Juan Vidal-Perez
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -12,30 +12,30 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Teaching
+          url: teaching/
+          weight: 4
+        # - name: Data
+        #   url: data/
+        #   weight: 3
+        # - name: More about me
+        #   url: Me/
+        #   weight: 6
+        - name: CV
+          url: cv.pdf
+          weight: 5
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Juan Vidal-Perez research papers, course materials, data, curriculum vitae, and contact information."
+    author: Juan Vidal-Perez
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: auto
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers","teaching","CV","Me"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +54,44 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Juan Vidal-Perez
+          subtitle: "Hola! I am PhD student at the [**Max Planck UCL Centre for Computational Psychiatry and Ageing Research**](https://www.mps-ucl-centre.mpg.de) and the [**Department of Imaging Neuroscience**](https://www.in.fil.ion.ucl.ac.uk) under the supervision of [**Ray Dolan**](https://scholar.google.com/citations?user=RP8YtJgAAAAJ&hl=en) and [**Rani Moran**](https://scholar.google.com/citations?user=kBxehLAAAAAJ&hl=en).
+                    <br><br>
+                    I research **Cognitive Computational Neuroscience**, using **computational modelling** to understand when, how and why we **change our mind**. Specifically, I leverage **Reinforcement Learning** to quantify how we can form accurate beliefs based on innacurate information.
+                    <br><br>
+                    Beyond this, I am broadly interested in the computational mechanics of the mind, and in the wider puzzle of intelligence (from cognitive maps to general reasoning in biological and artificial agents).
+                    <br><br>
+                    If any of this interests you, please [**get in touch!**](mailto:juan.perez.21@ucl.ac.uk)"
+          imageUrl: "Juan.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Papers
               url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Teaching
+              url: teaching/
+            # - name: Data
+            #   url: data/
+            - name: CV
+              url: cv.pdf
+            # - name: More about me
+            #   url: Me/
 
     socialIcons:
         - name: CV
           url: cv.pdf
         - name: Email
-          url: mailto:igelfeld@regensburg.edu
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:juan.perez.21@ucl.ac.uk
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=Gs59owEAAAAJ&hl=es
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/pmichaillat
+          url: https://github.com/Juan-VidalPerez
+        # - name: Linkedin
+        #   url: https://www.linkedin.com/in/juan-vidal-perez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+        # # - name: Twitter
+        #   url: https://x.com/ViPeJuan
         - name: Bluesky
-          url: https://bsky.app/profile/pmichaillat.bsky.social
+          url: https://bsky.app/profile/vipejuan.bsky.social
 
     assets:
         disableScrollBarStyle: true
@@ -105,8 +99,8 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      text: "Juan Vidal-Perez"
+      icon: "favicon-32x32.png"
       iconHeight: 18
 
 markup:
